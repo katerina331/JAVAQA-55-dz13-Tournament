@@ -2,12 +2,12 @@ import org.junit.jupiter.api.*;
 
 public class GameTest {
     Game manager = new Game();
-    Player item1 = new Player("MOV", 40);
-    Player item2 = new Player("LED", 75);
-    Player item3 = new Player("GRO", 60);
-    Player item4 = new Player("BJS", 60);
-    Player item5 = new Player("FOL", 45);
-    Player item6 = new Player("NYC", 30);
+    Player item1 = new Player(1, "MOV", 40);
+    Player item2 = new Player(2, "LED", 75);
+    Player item3 = new Player(3, "GRO", 60);
+    Player item4 = new Player(4, "BJS", 60);
+    Player item5 = new Player(5, "FOL", 45);
+    Player item6 = new Player(6, "NYC", 30);
 
     @BeforeEach
     public void setup() {
@@ -69,5 +69,4 @@ public class GameTest {
             manager.round("TOR", "BTK");
         });
     }
-
 }

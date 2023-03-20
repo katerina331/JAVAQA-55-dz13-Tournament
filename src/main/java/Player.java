@@ -9,11 +9,6 @@ public class Player {
         this.strength = strength;
     }
 
-    public Player(String name, int strength) {
-        this.name = name;
-        this.strength = strength;
-    }
-
     public int getId() {
         return id;
     }
